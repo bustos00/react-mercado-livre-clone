@@ -4,4 +4,10 @@
 
 .cor-text-button{
     color: black !important;
+    text-decoration: none;
+}
+
+.cursor{
+    cursor: pointer;
+    color: black!important;
 }

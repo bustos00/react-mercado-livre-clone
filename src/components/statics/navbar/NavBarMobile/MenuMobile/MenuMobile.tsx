@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
 export default function MenuMobile() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
@@ -39,9 +40,15 @@ export default function MenuMobile() {
           horizontal: 'left',
         }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+    <Link to="/produtos" className="cor-text-button cursor">
+        <MenuItem onClick={handleClose}>Produtos</MenuItem>
+        </Link>
+        <MenuItem onClick={handleClose}>Oferta do dia</MenuItem>
+        <MenuItem onClick={handleClose}>Supermercado</MenuItem>
+        <MenuItem onClick={handleClose}>Moda</MenuItem>
+        <MenuItem onClick={handleClose}>Live</MenuItem>
+        <MenuItem onClick={handleClose}>Vender</MenuItem>
+        <MenuItem onClick={handleClose}>Contato</MenuItem>
       </Menu>
     </div>
   );
