@@ -17,6 +17,6 @@ npm install
 
 npm start
 
-acesse http://localhost:3000 no browser.
+acesse (https://mercadolivre-clone.netlify.app/home) no browser.
 
 
