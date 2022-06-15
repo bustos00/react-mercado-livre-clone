@@ -1,5 +1,5 @@
 # ReactMercadoLivreClone
-Exemplo de aplicação web utilizando react JS.
+Aplicação web utilizando react JS.
 
 ## versão Web
 
